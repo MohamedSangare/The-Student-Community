@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Student Community</title>
+        <meta charset="utf-8">
+        <meta name="description" content="The Student Community">
+        <meta name="author" content="Mohamed Sangare">
+        <meta name="keywords" content="The Student Community">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <link rel="icon" href="favicon.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:700i" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="block">
+            <header class="container-fluid header">
+                    <a href="index.html" class="logo"><img src="logo.png" alt="logo"> </a>
+                     <nav class="menu">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="news.html">News</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+            </header>
+        </div>
+               <div class="container">
+                   <h1 class="us">Contact-Us</h1>
+                    <form action="main.php" method="POST">
+                    <div class="row">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name " required>
+                   </div>
+                   <div class="row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder=" Your email" required>
+                   </div>
+                   <div class="row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message..." class="form-control" style="height:200px;"></textarea>                  
+                   </div>
+                    <div class="row">
+                            <button type="submit" id="sent_email" class="btn btn-success">Submit</button>
+                    </div>
+                     </form>
+               </div>
+            <footer class=" container footer">
+                <span>The Student Community<i class="fa fa-copyright"></i>2019</span>
+                <span>Design by <a href="#" target="_self">Mohamed Sangare</a></span>
+            </footer>
+            <script src="main.js"></script> 
+        </body>
+</html>
